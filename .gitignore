@@ -29,7 +29,6 @@ checkpoints/
 
 # Saved trained models
 saved_models/
-models/
 
 # Jupyter
 .ipynb_checkpoints/
