@@ -1,0 +1,42 @@
+# Environment variables / secrets
+.env
+*.env
+
+# Ignore virtual environments
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Datasets
+data/
+processed/
+split/
+raw/
+resources/
+*.csv
+
+# Model checkpoints
+checkpoints/
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Saved trained models
+saved_models/
+models/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / IDE
+.vscode/
+.DS_Store
+
+# Streamlit
+.streamlit/secrets.toml
