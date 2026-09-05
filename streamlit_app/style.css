@@ -1,0 +1,78 @@
+/* ================================
+   Page Background
+   ================================ */
+body {
+    background-color: #f0f8ff; /* Alice Blue */
+    color: #000000;
+    font-family: 'Arial', sans-serif;
+}
+
+/* ================================
+   Headers (h1, h2, h3)
+   ================================ */
+h1, h2, h3 {
+    color: #1E90FF; /* Dodger Blue */
+    font-weight: bold;
+}
+
+/* ================================
+   Sidebar
+   ================================ */
+.css-1d391kg {  /* may vary depending on Streamlit version */
+    background-color: #e6f2ff !important; /* Light blue sidebar */
+    padding-top: 20px;
+}
+
+/* ================================
+   Info, Success, Warning, Error Boxes
+   ================================ */
+.stAlert {
+    border-radius: 12px;
+    background-color: #d9edf7 !important; /* Light info blue */
+    border-left: 5px solid #1E90FF;
+    padding: 12px !important;
+}
+
+/* ================================
+   Buttons
+   ================================ */
+.stButton>button {
+    background-color: #1E90FF;
+    color: white;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-weight: bold;
+}
+
+.stButton>button:hover {
+    background-color: #63b3ff;
+    color: white;
+}
+
+/* ================================
+   Tables (for Admin Dashboard)
+   ================================ */
+.stDataFrame {
+    border: 1px solid #1E90FF !important;
+}
+
+.stDataFrame th {
+    background-color: #d0e7ff !important;
+    color: #1E90FF !important;
+    font-weight: bold;
+}
+
+.stDataFrame td {
+    padding: 6px !important;
+}
+
+/* ================================
+   Miscellaneous
+   ================================ */
+p, li {
+    font-size: 16px;
+}
+
+a {
+    color: #1E90FF;
+}
